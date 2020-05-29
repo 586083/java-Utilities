@@ -18,6 +18,11 @@ public class DateUtils {
 		System.out.println("Inside DateUtils");
 	}
 	
+	/**
+	 * @param dateToChanged
+	 * @param format
+	 * @return Date in String format
+	 */
 	public static String getDateInStringFormat(Date dateToChanged,String format) {
 		String result=EMPTY_STRING;
 		if(dateToChanged != null && format != null) {
