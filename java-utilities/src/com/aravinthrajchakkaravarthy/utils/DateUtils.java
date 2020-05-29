@@ -12,7 +12,7 @@ public class DateUtils {
 	private static final String EMPTY_STRING="";
 	
 	/**
-	 * 
+	 * public constructor
 	 */
 	public DateUtils() {
 		System.out.println("Inside DateUtils");
