@@ -43,15 +43,15 @@ public class DateUtils {
 	 */
 	public static int getDaysofWeek(Date date){
 	    if(date !=null){
-		Calendar c = Calendar.getInstance();
-		c.setTime(date);
-		int day = c.get(Calendar.DAY_OF_WEEK);
-		if(day==1){
-			day = 7;
-		} else {
-			day = day-1;
-		}
-		return day;
+			Calendar c = Calendar.getInstance();
+			c.setTime(date);
+			int day = c.get(Calendar.DAY_OF_WEEK);
+			if(day==1){
+				day = 7;
+			} else {
+				day = day-1;
+			}
+			return day;
 	    }
 	    return 0;		
 	}
