@@ -37,7 +37,7 @@ public class DateUtils {
 	}
 	
 	/**
-	 * This method convert Date to DOP
+	 * This method convert Date to DOP for an given Date
 	 * @param date
 	 * @return DOP
 	 */
