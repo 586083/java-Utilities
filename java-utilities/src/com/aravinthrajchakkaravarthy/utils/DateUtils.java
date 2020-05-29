@@ -42,6 +42,7 @@ public class DateUtils {
 	 * @return DOP
 	 */
 	public static int getDaysofWeek(Date date){
+	    if(date !=null){
 		Calendar c = Calendar.getInstance();
 		c.setTime(date);
 		int day = c.get(Calendar.DAY_OF_WEEK);
@@ -51,5 +52,7 @@ public class DateUtils {
 			day = day-1;
 		}
 		return day;
+	    }
+	    return 0;		
 	}
 }
