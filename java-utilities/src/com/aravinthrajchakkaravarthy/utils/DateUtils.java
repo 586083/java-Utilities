@@ -12,17 +12,12 @@ public class DateUtils {
 	private static final String EMPTY_STRING="";
 	
 	/**
-	 * Date Utils constructor
+	 * DateUtils constructor
 	 */
 	public DateUtils() {
 		System.out.println("Inside DateUtils");
 	}
 	
-	/**
-	 * @param dateToChanged
-	 * @param format
-	 * @return String
-	 */
 	public static String getDateInStringFormat(Date dateToChanged,String format) {
 		String result=EMPTY_STRING;
 		if(dateToChanged != null && format != null) {
