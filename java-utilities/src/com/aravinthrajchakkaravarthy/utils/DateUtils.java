@@ -19,6 +19,8 @@ public class DateUtils {
 	}
 	
 	/**
+	 * This method will convert Date to String in given format
+	 * 
 	 * @param dateToChanged
 	 * @param format
 	 * @return Date in String format
