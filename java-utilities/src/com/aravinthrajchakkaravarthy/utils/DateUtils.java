@@ -8,8 +8,8 @@ package com.aravinthrajchakkaravarthy.utils;
 import java.util.Date;
 
 public class DateUtils {
-	
-	private final static String EMPTY_STRING="";
+
+	private static final String EMPTY_STRING="";
 	
 	/**
 	 * 
