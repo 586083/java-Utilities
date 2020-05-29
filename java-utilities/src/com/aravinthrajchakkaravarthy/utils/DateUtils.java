@@ -21,7 +21,7 @@ public class DateUtils {
 	/**
 	 * @param dateToChanged
 	 * @param format
-	 * @return
+	 * @return String
 	 */
 	public static String getDateInStringFormat(Date dateToChanged,String format) {
 		String result=EMPTY_STRING;
